@@ -14,8 +14,8 @@ main:
   #- title: "Talks"
   #  url: /talks/    
 
-  - title: " Lecture Notes"
-    url: /lecturenotes/    
+  - title: " Notebook"
+    url: /notebook/    
 
   - title: "CV"
     url: /cv/

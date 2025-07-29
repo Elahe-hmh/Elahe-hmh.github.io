@@ -1,7 +1,7 @@
 ---
 title: "Summer School on Quantitative Molecular and Cellular Biology 2025 – University of Manitoba"
 layout: default
-permalink: /notebook/summer-school-2025/
+permalink: /notebook/summer-school-2025-manitoba/summer-school-2025/
 ---
 
 Here are my notes from a summer school I participated. It was **3MC‑PIMS‑ICMS Summer School on Quantitative Molecular and Cellular Biology**, which was held in Winnipeg, Manitoba, from June 16 to 27, 2025.

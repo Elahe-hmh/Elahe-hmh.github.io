@@ -24,11 +24,10 @@ main:
     url: /reading/
     #To Read, Reading, Read
         
-  - title: "Monologues"
-    url: /monologues/
+  - title: "Posts"
+    url: /posts/
 
-  - title: "Off the Grid"
-    url: /offthegrid/
+  
     #Life Beyond CV!
     #photography
     #hobbies

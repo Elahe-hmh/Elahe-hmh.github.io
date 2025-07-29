@@ -5,7 +5,8 @@ permalink: /notebook/
 author_profile: true
 ---
 
-This is where I share notes I’ve taken or prepared.
+This is where I share scientific/academic notes I’ve taken or prepared.
 
-- [Summer School 2024](/notebook/summer-school-2024/)
+- [Summer School on Quantitative Molecular and Cellular Biology 2025 - University of Manitoba
+](/notebook/summer-school-2025/)
 

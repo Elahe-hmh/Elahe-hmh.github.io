@@ -1,7 +1,7 @@
 ---
-title: "Summer School 2024"
+title: "Summer School on Quantitative Molecular and Cellular Biology 2025 – University of Manitoba"
 layout: default
-permalink: /notebook/summer-school-2024/
+permalink: /notebook/summer-school-2025/
 ---
 
 Here are my notes from the 2024 Summer School on Modeling.

@@ -1,0 +1,225 @@
+/*
+ * Main stylesheet for the student's personal website.
+ *
+ * The design uses a clean, responsive layout with a sticky navigation bar
+ * and flexible grid layouts for the photo gallery. The photo grid is inspired
+ * by CSS flexbox examples showing how to create responsive image grids that
+ * adjust from four columns down to one column on smaller screens【293322501398742†L931-L1007】.
+ */
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  /* Use a very light pastel background for a minimal and professional feel */
+  background-color: #F7F8FA;
+  /* Dark grey text ensures readability on the soft background */
+  color: #333333;
+}
+
+/* Header and navigation styling */
+header {
+  /* Pastel blue header for a soft professional accent */
+  background-color: #8AB6D6;
+  color: #ffffff;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 0 0.75rem;
+}
+
+nav a {
+  /* Keep navigation text white for contrast against the pastel header */
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  display: block;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+nav a:hover,
+nav a:focus {
+  /* Slightly darker pastel blue on hover for subtle feedback */
+  background-color: #6D9DC5;
+}
+
+/* Main content area */
+main {
+  padding: 2rem 1rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  /* Use a darker shade of the pastel blue for headings */
+  color: #6D9DC5;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+}
+
+/* Footer */
+footer {
+  background-color: #F0F4F8;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  border-top: 1px solid #E2E8F0;
+}
+
+/* Resume page styles */
+.resume-section {
+  margin-bottom: 1.5rem;
+}
+
+.resume-section h3 {
+  color: #6D9DC5;
+  margin-bottom: 0.25rem;
+  font-size: 1.3rem;
+}
+
+.resume-item {
+  margin-bottom: 1rem;
+}
+
+.resume-item h4 {
+  margin: 0;
+  font-weight: bold;
+  /* Slightly darker pastel accent for subheadings */
+  color: #5A7FA1;
+}
+
+.resume-item p {
+  margin: 0.25rem 0;
+}
+
+/* Notes and books list styles */
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+.list a {
+  color: #6D9DC5;
+  text-decoration: none;
+  border-bottom: 1px dotted #6D9DC5;
+}
+
+.list a:hover {
+  border-bottom-style: solid;
+}
+
+/* Degree tags for resume sections
+ * These minimal color codes distinguish different degrees with pastel accents.
+ */
+.degree-tag {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+/* Undergrad degree tag: pastel green */
+.undergrad-tag {
+  background-color: #BCE784;
+}
+
+/* Biomedical Engineering master's tag: pastel peach */
+.bme-tag {
+  background-color: #FFDAC1;
+}
+
+/* Mathematics master's tag: pastel lavender */
+.math-tag {
+  background-color: #C5C7E3;
+}
+
+/* Responsive photo gallery using flexbox, inspired by W3Schools example【293322501398742†L931-L1007】 */
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: -4px;
+}
+
+.photo-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.photo-grid .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+  /* Style figure and captions in the photo gallery */
+  figure {
+    margin: 0;
+  }
+  figcaption {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0.25rem;
+    color: #555555;
+  }
+
+/* Two columns for medium screens */
+@media screen and (max-width: 800px) {
+  .photo-grid .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* One column for small screens */
+@media screen and (max-width: 600px) {
+  .photo-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}

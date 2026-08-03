@@ -10,6 +10,4 @@ paperurl: "https://doi.org/10.7150/thno.93973"
 citation: 'Abdollahi, H., Yousefirizi, F., Shiri, I., Brosch-Lenz, J., Mollaheydar, E., Fele-Paranj, A., Shi, K., Zaidi, H., Alberts, I., Soltani, M., Uribe, C., Saboury, B., & Rahmim, A. (2024). "Theranostic digital twins: Concept, framework and roadmap towards personalized radiopharmaceutical therapies." <i>Theranostics</i>, 14(9), 3404–3422. https://doi.org/10.7150/thno.93973'
 ---
 
-This article proposes a roadmap for theranostic digital twins in radiopharmaceutical therapy. The framework combines patient-specific clinical, imaging, pharmacokinetic, radiobiological, and related information to support personalized treatment planning.
 
-[Read the article](https://doi.org/10.7150/thno.93973)

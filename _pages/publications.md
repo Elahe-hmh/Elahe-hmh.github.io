@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
+## Publications
 
 My research articles, conference papers, and other academic works.
 
@@ -30,3 +30,28 @@ My research articles, conference papers, and other academic works.
 </div>
   {% endif %}
 {% endfor %}
+
+---
+
+## Awards
+
+### Anona Thorne and Takao Tanabe Graduate Entrance Scholarship
+**University of British Columbia — October 2024**
+
+Selected as a recipient of the Anona Thorne and Takao Tanabe Graduate Scholarship.
+
+### IAEA Marie Skłodowska-Curie Fellowship Programme
+**International Atomic Energy Agency — 2022–2025**
+
+Selected for the IAEA Marie Skłodowska-Curie Fellowship Programme.
+
+### First Place in Neurotract International Summer School
+**Tehran University of Medical Sciences — 2019**
+
+Participated in the Neurotract International Summer School in Tehran and won as the best project in their competition.
+
+
+### National Neuroscience Competition
+**IPM Institute for Research — 2018**
+
+Awarded for the project proposal *Olfactory Modeling with Directed Graphs*.

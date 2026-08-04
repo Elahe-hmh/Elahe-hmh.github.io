@@ -124,11 +124,6 @@ My research articles, conference papers, and other academic works.
     </div>
   </div>
 
-</div>
-
-## Competition Awards
-
-<div class="award-group">
 
   <div class="award-item">
     <div class="award-header">

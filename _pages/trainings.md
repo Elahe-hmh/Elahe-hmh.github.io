@@ -145,8 +145,6 @@ A selection of my teaching, scientific-computing, and interdisciplinary training
 
 </div>
 
-## Interdisciplinary Summer Schools
-
 <div class="training-group">
 
   <div class="training-item">

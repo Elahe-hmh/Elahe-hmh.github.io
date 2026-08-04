@@ -5,6 +5,58 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.award-group {
+  margin-top: 1.5rem;
+}
+
+.award-item {
+  margin: 0 0 1.6rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 3px solid #2c7f95;
+}
+
+.award-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.award-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.award-year {
+  white-space: nowrap;
+  color: #666;
+  font-weight: 600;
+}
+
+.award-institution {
+  margin-top: 0.2rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.award-description {
+  margin-top: 0.45rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  .award-header {
+    display: block;
+  }
+
+  .award-year {
+    display: block;
+    margin-top: 0.2rem;
+  }
+}
+</style>
+
 ## Publications
 
 My research articles, conference papers, and other academic works.
@@ -33,25 +85,85 @@ My research articles, conference papers, and other academic works.
 
 ---
 
-## Awards
+## Awards, Fellowships, and Scholarships
 
-### Anona Thorne and Takao Tanabe Graduate Entrance Scholarship
-**University of British Columbia — October 2024**
+<div class="award-group">
 
-Selected as a recipient of the Anona Thorne and Takao Tanabe Graduate Scholarship.
+  <div class="award-item">
+    <div class="award-header">
+      <span class="award-title">
+        Anona Thorne and Takao Tanabe Graduate Entrance Scholarship
+      </span>
+      <span class="award-year">October 2024</span>
+    </div>
 
-### IAEA Marie Skłodowska-Curie Fellowship Programme
-**International Atomic Energy Agency — 2022–2025**
+    <div class="award-institution">
+      University of British Columbia
+    </div>
 
-Selected for the IAEA Marie Skłodowska-Curie Fellowship Programme.
+    <div class="award-description">
+      Selected as a recipient of the Anona Thorne and Takao Tanabe
+      Graduate Entrance Scholarship.
+    </div>
+  </div>
 
-### First Place in Neurotract International Summer School
-**Tehran University of Medical Sciences — 2019**
+  <div class="award-item">
+    <div class="award-header">
+      <span class="award-title">
+        IAEA Marie Skłodowska-Curie Fellowship Programme
+      </span>
+      <span class="award-year">2022–2025</span>
+    </div>
 
-Participated in the Neurotract International Summer School in Tehran and won as the best project in their competition.
+    <div class="award-institution">
+      International Atomic Energy Agency
+    </div>
 
+    <div class="award-description">
+      Selected for the IAEA Marie Skłodowska-Curie Fellowship Programme.
+    </div>
+  </div>
 
-### National Neuroscience Competition
-**IPM Institute for Research — 2018**
+</div>
 
-Awarded for the project proposal *Olfactory Modeling with Directed Graphs*.
+## Competition Awards
+
+<div class="award-group">
+
+  <div class="award-item">
+    <div class="award-header">
+      <span class="award-title">
+        First Place in the NeuroTract Competition
+      </span>
+      <span class="award-year">2019</span>
+    </div>
+
+    <div class="award-institution">
+      Tehran University of Medical Sciences
+    </div>
+
+    <div class="award-description">
+      Received first place for the research project presented during the
+      NeuroTract program.
+    </div>
+  </div>
+
+  <div class="award-item">
+    <div class="award-header">
+      <span class="award-title">
+        Winner of the Second National Neuroscience Competition
+      </span>
+      <span class="award-year">2018</span>
+    </div>
+
+    <div class="award-institution">
+      IPM Institute for Research
+    </div>
+
+    <div class="award-description">
+      Recognized for the project proposal
+      <em>Olfactory Modeling with Directed Graphs</em>.
+    </div>
+  </div>
+
+</div>
